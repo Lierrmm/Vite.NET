@@ -1,21 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<Version>0.1.0</Version>
-	<Authors>Carlos Jimenez</Authors>
-	<Company>Tech Gems</Company>
+	<Version>0.2.0</Version>
 	<Product>Vite.NET</Product>
 	<Description>Vite.NET is an integration tool for MVC and Razor pages backends</Description>
-	<RepositoryUrl>https://github.com/techgems/Vite.NET</RepositoryUrl>
+	<RepositoryUrl>https://github.com/lierrmm/Vite.NET</RepositoryUrl>
 	<RepositoryType>Public</RepositoryType>
 	<PackageTags>vite;vite-integration;react;svelte;vue;lit;solidjs</PackageTags>
-	<FileVersion>0.1.0</FileVersion>
-	<PackageId>TechGems.ViteDotNet</PackageId>
+	<FileVersion>0.2.0</FileVersion>
+	<PackageId>BBE.ViteDotNet</PackageId>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
