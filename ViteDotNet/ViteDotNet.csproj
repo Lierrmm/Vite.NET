@@ -6,13 +6,13 @@
     <Nullable>enable</Nullable>
 	<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<Version>0.3.0</Version>
+	<Version>0.4.0</Version>
 	<Product>Vite.NET</Product>
 	<Description>Vite.NET is an integration tool for MVC and Razor pages backends</Description>
 	<RepositoryUrl>https://github.com/lierrmm/Vite.NET</RepositoryUrl>
 	<RepositoryType>Public</RepositoryType>
 	<PackageTags>vite;vite-integration;react;svelte;vue;lit;solidjs</PackageTags>
-	<FileVersion>0.3.0</FileVersion>
+	<FileVersion>0.4.0</FileVersion>
 	<PackageId>BBE.ViteDotNet</PackageId>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
@@ -33,6 +33,12 @@
 
   <ItemGroup>
     <None Include="_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Plugin\package-lock.json" />
+    <_ContentIncludedByDefault Remove="Plugin\package.json" />
+    <_ContentIncludedByDefault Remove="Plugin\tsconfig.json" />
   </ItemGroup>
 
 </Project>
