@@ -1,3 +1,7 @@
+# DEPRECATED
+
+A more up to date package exists [here](https://github.com/Eptagone/Vite.AspNetCore)
+
 # Vite.NET
 
 Vite.NET is a library that allows you to easily implement Vite integrations in your ASP.NET Core Razor Pages and MVC applications.
